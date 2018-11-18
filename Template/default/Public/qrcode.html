@@ -1,0 +1,19 @@
+            <!-- qrcode -->
+            <div class="ui-dialog ui-qrcode">
+                <div class="ui-dialog-cnt" style="width:95%;">
+                    <header class="ui-dialog-hd">
+                        <h3>扫一扫</h3>
+                        <i class="ui-dialog-close" data-role="button"></i>
+                    </header>
+                    <div class="ui-dialog-bd">
+                            <img src="__STATIC__/./images/qrcode.jpg" alt="" height="250">
+                    </div>
+                </div>        
+            </div>     
+
+            <script>
+                // 显示二维码
+                $("#qrcode").click(function(){
+                    $(".ui-qrcode").dialog("show");
+                })                
+            </script>

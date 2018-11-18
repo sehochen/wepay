@@ -1,0 +1,131 @@
+﻿<layout name="Layout/layout"/> 
+    
+
+        <div class="page-title">
+            <h3>用户管理</h3>
+            <div class="page-breadcrumb">
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="#">用户管理</a>
+                    </li>
+                    <li>
+                        <a href="/user">查询用户</a>
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <div id="main-wrapper">
+            <div class="row m-t-md">
+                <div class="col-md-12">
+                    <div class="row mailbox-header">
+                        <div class="pull-left" style="margin:0 0 0 15px;">
+                            <a href="/user/edit" class="btn btn-success">添加用户</a>
+                        </div>
+                        <div class="pull-left" style="margin:0 0 0 15px;">
+                            <a href="#" id="delete" class="btn btn-success">删除</a>
+                        </div>
+                        <div class="form-inline pull-right" style="margin:0 20px 0 0">
+                            <form action="/user" method="get">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <input id="user_id" name="user_id" type="text" class="form-control" placeholder="查询用户(用户id)"
+                                        value="" />
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <select id="role_id" name="role_id" class="selectpicker" data-width="100%"
+                                        data-live-search="true">
+                                            <option value="0" selected=selected>
+                                                用户角色
+                                            </option>
+                                            <option value="58db567cc241b61113b1e88e">
+                                                管理员
+                                            </option>
+                                            <option value="58db567cc241b61113b1e890">
+                                                代理商
+                                            </option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="input-group">
+                                    <div class="input-group">
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-success" type="submit" style="margin-right:20px">
+                                                <i class="fa fa-search">
+                                                </i>
+                                            </button>
+                                        </span>
+                                        <a href="/user" class="btn btn-success" style="width:90px;">重置用户</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="mailbox-content panel">
+                        <div class="panel-body">
+                            <div class="table-responsive">
+                                <div id="example_wrapper" class="dataTables_wrapper">
+
+  <table id="example" class="table dataTable display" width="100%"> 
+   <thead> 
+    <tr> 
+     <th colspan="1" style="width:6%"> <span> <input id="selectall" type="checkbox" class="check-mail-all" /> </span> </th> 
+     <th nowrap="nowrap" style="width:13%"> <span> 名称 </span> </th> 
+     <th nowrap="nowrap" style="width:10%"> <span> 佣金 </span> </th> 
+     <th nowrap="nowrap" style="width:10%"> <span> 红利 </span> </th> 
+     <th nowrap="nowrap" style="width:12%"> <span> 代理商 </span> </th> 
+     <th nowrap="nowrap" style="width:8%"> <span> 角色名称 </span> </th> 
+     <th nowrap="nowrap" style="width:8%"> <span> 金额 </span> </th> 
+     <th nowrap="nowrap" style="width:15%"> <span> 注册时间 </span> </th> 
+     <th nowrap="nowrap" style="width:150px;text-align:center"> <span> 功能 </span> </th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr class="unread"> 
+     <td> <span> <input type="checkbox" class="checkbox-mail cb" data-id="590eb93fc241b672941fafcf" /> </span> </td> 
+     <td id="mod"> <a href="/user/edit?id=590eb93fc241b672941fafcf"> 123512【蔡唱松】 </a> </td> 
+     <td> 0.5% </td> 
+     <td> 95.0% </td> 
+     <td> YT032【YT032】 </td> 
+     <td> 代理商 </td> 
+     <td> 0 </td> 
+     <td> 2017-05-07 20:45</td> 
+     <td> 
+        <div style="float:left; margin:0 5px 5px 0;"> 
+            <a href="" class="btn btn-success"> 开启 </a> 
+        </div> 
+        <div style="float:left; margin:0 5px 5px 0;"> 
+            <a href="#" onclick="" class="btn btn-success"> 出金 </a> 
+        </div> 
+     </td> 
+    </tr> 
+
+   </tbody> 
+   <tbody>
+    <tr class="unread"> 
+     <td> <span> 合计 </span> </td> 
+     <td> <span> 角色: 会员 </span> </td> 
+     <td> <span> 1位 </span> </td> 
+     <td> <span> 0元 </span> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+    </tr> 
+   </tbody>
+  </table>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+

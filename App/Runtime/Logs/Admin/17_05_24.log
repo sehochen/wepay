@@ -1,0 +1,330 @@
+[ 2017-05-24T18:24:02+08:00 ] ::1 /wepay/admin.php/Product/getProduct/id/23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004625s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0151s ]
+NOTIC: [2048] Declaration of Admin\Model\ProductModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `we_product` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `we_product` WHERE `id` = 23 ORDER BY id asc LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2017-05-24T18:24:09+08:00 ] ::1 /wepay/admin.php/Product/getProduct/id/23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005305s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0201s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0287s ]
+NOTIC: [2048] Declaration of Admin\Model\ProductModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `we_product` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `we_product` WHERE `id` = 23 ORDER BY id asc LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2017-05-24T18:30:43+08:00 ] ::1 /wepay/admin.php/Product/getProduct/id/23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005852s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0154s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0232s ]
+NOTIC: [2048] Declaration of Admin\Model\ProductModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `we_product` [ RunTime:0.0234s ]
+SQL: SELECT * FROM `we_product` WHERE `id` = 23 ORDER BY id asc LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2017-05-24T18:30:49+08:00 ] ::1 /wepay/admin.php/Product/addProduct
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003718s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0135s ]
+NOTIC: [2048] Declaration of Admin\Model\ProductModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `we_product` [ RunTime:0.0163s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined variable: where C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 61 行.
+SQL: SELECT COUNT(*) AS tp_count FROM we_product a INNER JOIN we_product_cate as b on a.pid =b.id  LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: where C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 77 行.
+SQL: SELECT a.*,b.name as pname,FROM_UNIXTIME(a.add_time,'%Y-%m-%d %H:%i') as date FROM we_product a INNER JOIN we_product_cate as b on a.pid =b.id  ORDER BY id desc LIMIT 0,10   [ RunTime:0.0118s ]
+SQL: UPDATE `we_product` SET `name`='测试33',`pid`='2',`api`='111222',`desc`='11122333333',`sort`='1',`state`='0' WHERE `id` = 23 [ RunTime:0.0130s ]
+
+[ 2017-05-24T18:30:51+08:00 ] ::1 /wepay/admin.php/Product/getProduct/id/23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004118s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0140s ]
+NOTIC: [2048] Declaration of Admin\Model\ProductModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `we_product` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `we_product` WHERE `id` = 23 ORDER BY id asc LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2017-05-24T18:32:00+08:00 ] ::1 /wepay/admin.php/Product/getProduct/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004372s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0149s ]
+NOTIC: [2048] Declaration of Admin\Model\ProductModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `we_product` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `we_product` WHERE `id` = 1 ORDER BY id asc LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-05-24T19:14:02+08:00 ] ::1 /wepay/admin.php/Product/getProduct/id/23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006132s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0150s ]
+NOTIC: [2048] Declaration of Admin\Model\ProductModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `we_product` [ RunTime:0.0256s ]
+SQL: SELECT * FROM `we_product` WHERE `id` = 23 ORDER BY id asc LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-05-24T19:14:03+08:00 ] ::1 /wepay/admin.php/Product/addProduct
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003618s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0135s ]
+NOTIC: [2048] Declaration of Admin\Model\ProductModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `we_product` [ RunTime:0.0132s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined variable: where C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 61 行.
+SQL: SELECT COUNT(*) AS tp_count FROM we_product a INNER JOIN we_product_cate as b on a.pid =b.id  LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: where C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 77 行.
+SQL: SELECT a.*,b.name as pname,FROM_UNIXTIME(a.add_time,'%Y-%m-%d %H:%i') as date FROM we_product a INNER JOIN we_product_cate as b on a.pid =b.id  ORDER BY id desc LIMIT 0,10   [ RunTime:0.0110s ]
+SQL: UPDATE `we_product` SET `name`='测试33',`pid`='2',`api`='111222',`desc`='11122333333',`sort`='1',`state`='0' WHERE `id` = 23 [ RunTime:0.0197s ]
+
+[ 2017-05-24T19:14:13+08:00 ] ::1 /wepay/admin.php/Product/getProduct/id/17
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004239s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0151s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0145s ]
+NOTIC: [2048] Declaration of Admin\Model\ProductModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `we_product` [ RunTime:0.0151s ]
+SQL: SELECT * FROM `we_product` WHERE `id` = 17 ORDER BY id asc LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-05-24T19:14:18+08:00 ] ::1 /wepay/admin.php/Product/addProduct
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003962s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0134s ]
+NOTIC: [2048] Declaration of Admin\Model\ProductModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `we_product` [ RunTime:0.0139s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined variable: where C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 61 行.
+SQL: SELECT COUNT(*) AS tp_count FROM we_product a INNER JOIN we_product_cate as b on a.pid =b.id  LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: where C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 77 行.
+SQL: SELECT a.*,b.name as pname,FROM_UNIXTIME(a.add_time,'%Y-%m-%d %H:%i') as date FROM we_product a INNER JOIN we_product_cate as b on a.pid =b.id  ORDER BY id desc LIMIT 0,10   [ RunTime:0.0114s ]
+SQL: UPDATE `we_product` SET `name`='美元/欧元',`pid`='1',`api`='美元兑欧元',`desc`='美元兑欧元',`sort`='1',`state`='0' WHERE `id` = 17 [ RunTime:0.0089s ]
+
+[ 2017-05-24T19:14:21+08:00 ] ::1 /wepay/admin.php/Product/getProduct/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005408s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0146s ]
+NOTIC: [2048] Declaration of Admin\Model\ProductModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `we_product` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `we_product` WHERE `id` = 1 ORDER BY id asc LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2017-05-24T19:14:25+08:00 ] ::1 /wepay/admin.php/Product/addProduct
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004741s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0132s ]
+NOTIC: [2048] Declaration of Admin\Model\ProductModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `we_product` [ RunTime:0.0137s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined variable: where C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 61 行.
+SQL: SELECT COUNT(*) AS tp_count FROM we_product a INNER JOIN we_product_cate as b on a.pid =b.id  LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: where C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 77 行.
+SQL: SELECT a.*,b.name as pname,FROM_UNIXTIME(a.add_time,'%Y-%m-%d %H:%i') as date FROM we_product a INNER JOIN we_product_cate as b on a.pid =b.id  ORDER BY id desc LIMIT 0,10   [ RunTime:0.0241s ]
+SQL: UPDATE `we_product` SET `name`='美元/人民币',`pid`='1',`api`='111111111',`desc`='美元对人民币',`sort`='1',`state`='0' WHERE `id` = 1 [ RunTime:0.0054s ]
+
+[ 2017-05-24T19:14:31+08:00 ] ::1 /wepay/admin.php/Product/getProduct/id/23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004591s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0151s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0148s ]
+NOTIC: [2048] Declaration of Admin\Model\ProductModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `we_product` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `we_product` WHERE `id` = 23 ORDER BY id asc LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-05-24T19:14:51+08:00 ] ::1 /wepay/admin.php/Product/addProduct
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005644s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0142s ]
+NOTIC: [2048] Declaration of Admin\Model\ProductModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `we_product` [ RunTime:0.0143s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined variable: where C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 61 行.
+SQL: SELECT COUNT(*) AS tp_count FROM we_product a INNER JOIN we_product_cate as b on a.pid =b.id  LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: where C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 77 行.
+SQL: SELECT a.*,b.name as pname,FROM_UNIXTIME(a.add_time,'%Y-%m-%d %H:%i') as date FROM we_product a INNER JOIN we_product_cate as b on a.pid =b.id  ORDER BY id desc LIMIT 0,10   [ RunTime:0.0118s ]
+SQL: UPDATE `we_product` SET `name`='白银',`pid`='2',`api`='111222',`desc`='11122333333',`sort`='1',`state`='0' WHERE `id` = 23 [ RunTime:0.0152s ]
+
+[ 2017-05-24T19:30:29+08:00 ] ::1 /wepay/admin.php/Product/getProduct/id/17
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006602s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0183s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0210s ]
+NOTIC: [2048] Declaration of Admin\Model\ProductModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `we_product` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `we_product` WHERE `id` = 17 ORDER BY id asc LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-05-24T19:31:08+08:00 ] ::1 /wepay/admin.php/Product/addProduct
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004085s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0134s ]
+NOTIC: [2048] Declaration of Admin\Model\ProductModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `we_product` [ RunTime:0.0138s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined variable: where C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 61 行.
+SQL: SELECT COUNT(*) AS tp_count FROM we_product a INNER JOIN we_product_cate as b on a.pid =b.id  LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: where C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 77 行.
+SQL: SELECT a.*,b.name as pname,FROM_UNIXTIME(a.add_time,'%Y-%m-%d %H:%i') as date FROM we_product a INNER JOIN we_product_cate as b on a.pid =b.id  ORDER BY id desc LIMIT 0,10   [ RunTime:0.0119s ]
+SQL: UPDATE `we_product` SET `name`='人民币/港元',`pid`='1',`api`='http://qq.ip138.com/hl.asp?from=CNY&amp;to=HKD&amp;q=1',`desc`='美元兑欧元',`sort`='1',`state`='0' WHERE `id` = 17 [ RunTime:0.0124s ]
+
+[ 2017-05-24T19:31:16+08:00 ] ::1 /wepay/admin.php/Product/getProduct/id/17
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007357s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0148s ]
+NOTIC: [2048] Declaration of Admin\Model\ProductModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `we_product` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `we_product` WHERE `id` = 17 ORDER BY id asc LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2017-05-24T19:31:21+08:00 ] ::1 /wepay/admin.php/Product/addProduct
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004799s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0137s ]
+NOTIC: [2048] Declaration of Admin\Model\ProductModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `we_product` [ RunTime:0.0145s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined variable: where C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 61 行.
+SQL: SELECT COUNT(*) AS tp_count FROM we_product a INNER JOIN we_product_cate as b on a.pid =b.id  LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: where C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 77 行.
+SQL: SELECT a.*,b.name as pname,FROM_UNIXTIME(a.add_time,'%Y-%m-%d %H:%i') as date FROM we_product a INNER JOIN we_product_cate as b on a.pid =b.id  ORDER BY id desc LIMIT 0,10   [ RunTime:0.0118s ]
+SQL: UPDATE `we_product` SET `name`='人民币/港元',`pid`='1',`api`='http://qq.ip138.com/hl.asp?from=CNY&amp;amp;to=HKD&amp;amp;q=1',`desc`='人民币/港元',`sort`='1',`state`='0' WHERE `id` = 17 [ RunTime:0.0146s ]
+
+[ 2017-05-24T19:50:25+08:00 ] ::1 /wepay/admin.php/Product/getProduct/id/23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004812s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0149s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0155s ]
+NOTIC: [2048] Declaration of Admin\Model\ProductModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `we_product` [ RunTime:0.0168s ]
+SQL: SELECT * FROM `we_product` WHERE `id` = 23 ORDER BY id asc LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-05-24T19:50:49+08:00 ] ::1 /wepay/admin.php/Product/getProduct/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003938s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0147s ]
+NOTIC: [2048] Declaration of Admin\Model\ProductModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `we_product` [ RunTime:0.0149s ]
+SQL: SELECT * FROM `we_product` WHERE `id` = 1 ORDER BY id asc LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2017-05-24T19:51:41+08:00 ] ::1 /wepay/admin.php/Product/getProduct/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004658s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0146s ]
+NOTIC: [2048] Declaration of Admin\Model\ProductModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `we_product` [ RunTime:0.0154s ]
+SQL: SELECT * FROM `we_product` WHERE `id` = 1 ORDER BY id asc LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2017-05-24T19:51:44+08:00 ] ::1 /wepay/admin.php/Product/getProduct/id/17
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004994s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0147s ]
+NOTIC: [2048] Declaration of Admin\Model\ProductModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `we_product` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `we_product` WHERE `id` = 17 ORDER BY id asc LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2017-05-24T19:55:33+08:00 ] ::1 /wepay/admin.php/Product/addProduct
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005031s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0136s ]
+NOTIC: [2048] Declaration of Admin\Model\ProductModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `we_product` [ RunTime:0.0141s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Undefined variable: where C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 61 行.
+SQL: SELECT COUNT(*) AS tp_count FROM we_product a INNER JOIN we_product_cate as b on a.pid =b.id  LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: where C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 77 行.
+SQL: SELECT a.*,b.name as pname,FROM_UNIXTIME(a.add_time,'%Y-%m-%d %H:%i') as date FROM we_product a INNER JOIN we_product_cate as b on a.pid =b.id  ORDER BY id desc LIMIT 0,10   [ RunTime:0.0117s ]
+SQL: UPDATE `we_product` SET `name`='人民币/港元',`pid`='1',`api`='http://hl.anseo.cn/cal_CNY_To_HKD_1.aspx',`desc`='人民币/港元',`sort`='1',`state`='0' WHERE `id` = 17 [ RunTime:0.0125s ]
+
+[ 2017-05-24T20:15:11+08:00 ] ::1 /wepay/admin.php/Product/getProduct/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007619s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0149s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0170s ]
+NOTIC: [2048] Declaration of Admin\Model\ProductModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `we_product` [ RunTime:0.0199s ]
+SQL: SELECT * FROM `we_product` WHERE `id` = 1 ORDER BY id asc LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-05-24T20:15:14+08:00 ] ::1 /wepay/admin.php/Product/getProduct/id/17
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006558s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0151s ]
+NOTIC: [2048] Declaration of Admin\Model\ProductModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `we_product` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `we_product` WHERE `id` = 17 ORDER BY id asc LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2017-05-24T21:30:14+08:00 ] ::1 /wepay/admin.php/Product/getProduct/id/17
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006787s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0118s ]
+

@@ -1,0 +1,21 @@
+    <div id="pay">
+        <div class="ui-btn-wrap">
+            <center>
+            <button class="ui-btn ui-btn-primary" onclick="payMoney(1,this)">1￥</button>
+            <button class="ui-btn ui-btn-primary" onclick="payMoney(1,this)">5￥</button>
+            <button class="ui-btn ui-btn-primary" onclick="payMoney(10,this)">10￥</button>
+            <button class="ui-btn ui-btn-primary" onclick="payMoney(20,this)">20￥</button>
+            <button class="ui-btn ui-btn-primary" onclick="payMoney(50,this)">50￥</button>
+            <button class="ui-btn ui-btn-primary ui-tag-selected" onclick="payMoney(100,this)">100￥</button>
+            </center>
+        </div>
+
+        <div class="demo-block" style="position:fixed; bottom:0;width:100%;">
+            <section class="ui-input-wrap ui-border-t">
+                <div class="ui-input">
+                    <input type="text" name="payMoney" id="payMoney" value="100" placeholder="任意金额">
+                </div>
+                <button class="ui-btn" onclick="payNow()">马上充值</button>
+            </section>
+         </div> 
+    </div> 

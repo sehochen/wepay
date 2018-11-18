@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="format-detection" content="telephone=no">
+        <title>个人中心</title>
+        <link rel="stylesheet" href="__STATIC__/css/frozen.css">
+        <script src="__STATIC__/lib/zepto.min.js"></script>
+        <script src="__STATIC__/js/frozen.js"></script>
+        <style>
+            #pay .ui-btn-wrap .ui-btn{
+                margin-bottom:10px;
+            }
+
+            .layui-m-layersection>.layui-m-layerchild>h3{
+                height:20px;
+                line-height:20px;
+                margin:0;
+                padding:0;
+            }
+        </style>
+    </head>
+    
+    <body ontouchstart>
+        <header class="ui-header ui-header-positive ui-border-b">
+            <h1>个人中心</h1>
+        </header>
+
+
+        <section class="ui-container" >
+            <div class="ui-flex ui-flex-pack-center"  style="background-image:url(__STATIC__/images/bg.png);background-repeat:no-repeat;background-size:cover;height:165px;">
+                    <div  style="margin-top:10px;"> 
+
+                        <div class="ui-flex ui-flex-pack-center"> 
+                            <span> <img src="
+<php>
+    if( empty($info['head_img']) || is_null($info['head_img']) ){
+        echo '__STATIC__/images/head80.jpg';
+    }else{
+        echo $info['head_img'];
+    }   
+</php>                      
+                            
+                            " alt="" width="60">  </span>
+                        </div>
+                        
+                        <div class="ui-flex ui-flex-pack-center ui-txt-muted"> 
+                            <span> <h2>{$info['name']}</h2> </span>
+                        </div>
+                        <div class="ui-flex ui-flex-pack-center"> 
+                            <span class="ui-txt-success"> 
+                                <strong> ￥{$info['money']} </strong> 
+                            </span>
+                        </div>
+                        
+                        <div class="ui-flex ui-flex-pack-center "> 
+                            <button class="ui-btn ui-btn-primary" onclick="pay()">充值</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <button class="ui-btn ui-btn-primary">提现</button>
+                        </div>
+                    </div>
+
+            </div>
+
+
+<!-- userNav -->
+    <include file="Public/userNav"/>
+<!-- userNav -->
+
+
+            <div class="ui-flex ui-flex-pack-center" style="margin:5px 0;background-color:#fff;">           
+                <div id="qrcode"> 
+                    {$info['qrcode']}
+                </div>
+                <br>
+            </div>
+            <div class="ui-flex ui-flex-pack-center">           
+                <span class="ui-txt-muted"> 
+                    <h2>扫一扫</h2>
+                </span>
+                <br>
+            </div>
+        </section>
+
+
+<!-- qrcode -->
+    <include file="Public/qrcode"/>
+<!-- qrcode -->
+
+<!-- footer -->
+    <include file="Public/footer"/>
+<!-- footer -->
+
+
+</html>
+
+<script src="__STATIC__/layer_mobile/layer.js"></script>
+<script>
+
+    
+
+function pay(){ 
+  var content = $("#pay-cont").html()
+
+  layer.open({
+    type: 1
+    ,title: ['充值中心']
+    ,anim: 'up'
+    ,content:'<div id="pay"><div class="ui-btn-wrap"><center><button class="ui-btn ui-btn-primary" onclick="payMoney(1,this)">1￥</button> <button class="ui-btn ui-btn-primary" onclick="payMoney(5,this)">5￥</button> <button class="ui-btn ui-btn-primary" onclick="payMoney(10,this)">10￥</button> <button class="ui-btn ui-btn-primary" onclick="payMoney(20,this)">20￥</button> <button class="ui-btn ui-btn-primary" onclick="payMoney(50,this)">50￥</button> <button class="ui-btn ui-btn-primary ui-tag-selected" onclick="payMoney(100,this)">100￥</button></center></div><div class="demo-block" style="position:fixed;bottom:0;width:100%"><section class="ui-input-wrap ui-border-t"><div class="ui-input"><input type="text" name="payMoney" id="payMoney" value="100" placeholder="任意金额"></div><button class="ui-btn" onclick="payNow()">马上充值</button></section></div></div>'
+    ,anim: 'up'
+    ,style: 'position:fixed;bottom:0;left:0;width:100%;height:155px; padding:10px 0;border:none;'
+  });  
+
+}
+
+// 金额切换
+function payMoney(values,obj){
+    $('#pay .ui-tag-selected').removeClass('ui-tag-selected');
+    $(obj).addClass('ui-tag-selected');
+    $('#payMoney').val(values);
+}
+
+function payNow(){
+    var payMoney = $('#payMoney').val();
+    window.location.href="__MODULE__/Pay/pay/t/"+payMoney;
+}
+
+
+    $(function(){
+         // console.log( $.os.phone );
+    })
+   
+</script>

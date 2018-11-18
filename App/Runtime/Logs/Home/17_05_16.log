@@ -1,0 +1,126 @@
+[ 2017-05-16T14:33:52+08:00 ] ::1 /wepay/index.php/Index/index
+ERR: 模板不存在:./App/Home/View/Index/index.html
+
+[ 2017-05-16T14:36:59+08:00 ] ::1 /wepay/index.php/Index/index
+ERR: 模板不存在:./App/Home/View/Index/index.html
+
+[ 2017-05-16T14:37:15+08:00 ] ::1 /wepay/index.php/Index/index
+ERR: 模板不存在:./App/Home/View/default/Index/index.html
+
+[ 2017-05-16T14:39:47+08:00 ] ::1 /wepay/index.php/Index/css/frozen.css
+ERR: 非法操作:css
+
+[ 2017-05-16T14:39:47+08:00 ] ::1 /wepay/index.php/Index/lib/zepto.min.js
+ERR: 非法操作:lib
+
+[ 2017-05-16T14:39:47+08:00 ] ::1 /wepay/index.php/Index/js/frozen.js
+ERR: 非法操作:js
+
+[ 2017-05-16T14:40:15+08:00 ] ::1 /wepay/index.php/Index/lib/zepto.min.js
+ERR: 非法操作:lib
+
+[ 2017-05-16T14:40:15+08:00 ] ::1 /wepay/index.php/Index/js/frozen.js
+ERR: 非法操作:js
+
+[ 2017-05-16T14:40:15+08:00 ] ::1 /wepay/index.php/Static/css/frozen.css
+ERR: 无法加载控制器:Static
+
+[ 2017-05-16T14:40:18+08:00 ] ::1 /wepay/index.php/Static/css/frozen.css
+ERR: 无法加载控制器:Static
+
+[ 2017-05-16T14:40:25+08:00 ] ::1 /wepay/index.php/Static/css/frozen.css
+ERR: 无法加载控制器:Static
+
+[ 2017-05-16T14:42:45+08:00 ] ::1 /wepay/index.php/Index/index
+ERR: 模板不存在:./Template/default/Index/index.html
+
+[ 2017-05-16T14:43:46+08:00 ] ::1 /wepay/index.php/Static/css/frozen.css
+ERR: 无法加载控制器:Static
+
+[ 2017-05-16T14:43:46+08:00 ] ::1 /wepay/index.php/Index/lib/zepto.min.js
+ERR: 非法操作:lib
+
+[ 2017-05-16T14:43:46+08:00 ] ::1 /wepay/index.php/Index/js/frozen.js
+ERR: 非法操作:js
+
+[ 2017-05-16T14:45:51+08:00 ] ::1 /wepay/index.php/Index/js/frozen.js
+ERR: 非法操作:js
+
+[ 2017-05-16T14:45:51+08:00 ] ::1 /wepay/index.php/Index/lib/zepto.min.js
+ERR: 非法操作:lib
+
+[ 2017-05-16T14:46:55+08:00 ] ::1 /wepay/index.php/Index/index
+ERR: 模板不存在:/Template/default/Index/index.html
+
+[ 2017-05-16T14:47:18+08:00 ] ::1 /wepay/index.php/Index/Template/default/static/css/frozen.css
+ERR: 非法操作:Template
+
+[ 2017-05-16T14:47:32+08:00 ] ::1 /wepay/index.php/Index/Template/default/static/css/frozen.css
+ERR: 非法操作:Template
+
+[ 2017-05-16T14:47:44+08:00 ] ::1 /wepay/index.php/Index/Template/default/static/css/frozen.css
+ERR: 非法操作:Template
+
+[ 2017-05-16T14:47:49+08:00 ] ::1 /wepay/index.php/Index/js/frozen.js
+ERR: 非法操作:js
+
+[ 2017-05-16T14:47:49+08:00 ] ::1 /wepay/index.php/Index/lib/zepto.min.js
+ERR: 非法操作:lib
+
+[ 2017-05-16T14:49:33+08:00 ] ::1 /wepay/index.php/Index/App//Template/default/static/css/frozen.css
+ERR: 非法操作:App
+
+[ 2017-05-16T14:49:33+08:00 ] ::1 /wepay/index.php/Index/lib/zepto.min.js
+ERR: 非法操作:lib
+
+[ 2017-05-16T14:49:33+08:00 ] ::1 /wepay/index.php/Index/js/frozen.js
+ERR: 非法操作:js
+
+[ 2017-05-16T14:51:11+08:00 ] ::1 /wepay/index.php/Index/lib/zepto.min.js
+ERR: 非法操作:lib
+
+[ 2017-05-16T14:51:11+08:00 ] ::1 /wepay/index.php/Index/js/frozen.js
+ERR: 非法操作:js
+
+[ 2017-05-16T22:55:23+08:00 ] ::1 /wepay/index.php/Pay/index.html
+ERR: 无法加载控制器:Pay
+
+[ 2017-05-16T23:01:00+08:00 ] ::1 /wepay/index.php/User/index.html
+ERR: 模板不存在:./Template/default/User/index.html
+
+[ 2017-05-16T23:12:59+08:00 ] ::1 /wepay/index.php/User/css/frozen.css
+ERR: 非法操作:css
+
+[ 2017-05-16T23:12:59+08:00 ] ::1 /wepay/index.php/User/lib/zepto.min.js
+ERR: 非法操作:lib
+
+[ 2017-05-16T23:12:59+08:00 ] ::1 /wepay/index.php/User/js/frozen.js
+ERR: 非法操作:js
+
+[ 2017-05-16T23:23:27+08:00 ] ::1 /wepay/index.php/User/css/frozen.css
+ERR: 非法操作:css
+
+[ 2017-05-16T23:23:27+08:00 ] ::1 /wepay/index.php/User/lib/zepto.min.js
+ERR: 非法操作:lib
+
+[ 2017-05-16T23:23:27+08:00 ] ::1 /wepay/index.php/User/js/frozen.js
+ERR: 非法操作:js
+
+[ 2017-05-16T23:31:43+08:00 ] ::1 /wepay/index.php/User/css/frozen.css
+ERR: 非法操作:css
+
+[ 2017-05-16T23:31:43+08:00 ] ::1 /wepay/index.php/User/js/frozen.js
+ERR: 非法操作:js
+
+[ 2017-05-16T23:31:43+08:00 ] ::1 /wepay/index.php/User/lib/zepto.min.js
+ERR: 非法操作:lib
+
+[ 2017-05-16T23:35:14+08:00 ] ::1 /wepay/index.php/User/css/frozen.css
+ERR: 非法操作:css
+
+[ 2017-05-16T23:35:14+08:00 ] ::1 /wepay/index.php/User/js/frozen.js
+ERR: 非法操作:js
+
+[ 2017-05-16T23:35:14+08:00 ] ::1 /wepay/index.php/User/lib/zepto.min.js
+ERR: 非法操作:lib
+

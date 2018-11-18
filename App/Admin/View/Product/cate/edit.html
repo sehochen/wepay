@@ -1,0 +1,59 @@
+﻿<div class="modal fade" tabindex="-1" id="editCate" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" >
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title">编辑产品分类</h4></div>
+      <div class="modal-body">
+
+
+  <form action="__CONTROLLER__/cateEdit" method="post" id="upCateRes">  
+
+              <div class="panel panel-white">
+                <div class="panel-body form-horizontal">
+                
+                    <!-- id -->
+                    <input type="hidden" name="id" :value="upData.id">
+
+                    <div class="form-group">
+                      <label class="col-md-2 control-label">* 名称：</label>
+                      <div class="col-md-9">
+                        <input type="text" class="form-control" placeholder="名称" name="name" :value="upData.name" />
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label class="col-md-2 control-label">* 上级：</label>
+                      <div class="col-md-9">
+                        <select class="selectpicker col-md-12" name="pid">
+                          <option value="0">=顶级=</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label class="col-md-2 control-label"> 描述：</label>
+                      <div class="col-md-9">
+                        <textarea class="form-control" rows="3" name="desc" :value="upData.desc" />
+                      </div>> </textarea>
+                      </div>
+                    </div>
+
+                  </div> 
+                </div>
+
+</form>  
+
+
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-success" style="width:100px;margin-right:5px;" @click="addCate('upCateRes','editCate')">保存</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+

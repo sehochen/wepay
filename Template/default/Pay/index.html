@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="format-detection" content="telephone=no">
+        <title>交易记录</title>
+        <link rel="stylesheet" href="__STATIC__/css/frozen.css">
+        <script src="__STATIC__/lib/zepto.min.js"></script>
+        <script src="__STATIC__/js/frozen.js"></script>
+    </head>
+    
+    <body ontouchstart>
+        <header class="ui-header ui-header-positive ui-border-b">
+            <h1>交易记录</h1>
+        </header>
+
+        <section class="ui-container">
+
+
+            <section id="tab">
+            	<div class="demo-item">
+            		<div class="demo-block">
+            			<div class="ui-tab">
+            			    <ul class="ui-tab-nav ui-border-b">
+            			        <li class="current">持仓明细</li>
+            			        <li>历史明细</li>
+            			    </ul>
+            			    <ul class="ui-tab-content">
+            			        <li>
+                                        <table class="ui-table ">
+                                            <thead>
+                                                <tr><th>商品名称</th><th>购买汇率</th><th>交易额</th><th>类型</th><th>操作</th></tr>
+                                            </thead>
+                                            <tbody>
+
+<!--持仓明细-->
+<volist name="bet" id="vo">
+                                                <tr class="ui-txt-success">
+                                                    <td><h5>{$vo.name}</h5></td>
+                                                    <td>
+                                                        <button class="ui-btn ui-btn-s ui-btn-primary">
+                                                            {$vo.rate}
+                                                        </button>
+                                                    </td>
+                                                    <td>{$vo.money}</td>
+                                                    <td>{:$vo['type'] == 0 ? '买涨':'买跌'}</td>
+                                                    <td><button class="ui-btn ui-btn-s ui-btn-danger"> 出售 </button></td>
+                                                </tr> 
+</volist>
+
+                                            </tbody>
+                                        </table>
+                                </li>
+            			        <li>
+                                        <table class="ui-table ">
+                                            <thead>
+                                                <tr><th>商品名称</th><th>盈利</th><th>时间</th></tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="ui-txt-muted">
+                                                    <td><h5>美元/日元</h5></td>
+                                                    <td class="ui-txt-success">+0.8</td>
+                                                    <td> <h4>2017-5-30 20:30</h4> </td>
+                                                </tr>                                    
+                                                <!--<tr class="ui-txt-muted">
+                                                    <td> <h5>美元/欧元</h5> </td>
+                                                    <td class="ui-txt-warning">-0.8</td>
+                                                    <td> <h4>2017-5-30 20:30</h4> </td>
+                                                </tr>-->
+                                            </tbody>
+                                        </table>
+                                </li>
+            			    </ul>
+            			</div>
+            		</div>
+
+
+            	</div>
+            </section>
+
+        </section><!-- /.ui-container-->
+
+<!-- footer -->
+    <include file="Public/footer"/>
+<!-- footer -->
+
+    </body>
+</html>

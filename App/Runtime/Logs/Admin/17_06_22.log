@@ -1,0 +1,157 @@
+[ 2017-06-22T11:35:49+08:00 ] ::1 /wepay/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003305s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0226s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000528s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001340s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065708s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003421s ]
+
+[ 2017-06-22T11:35:54+08:00 ] ::1 /wepay/admin.php/Product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000152s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003005s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+
+[ 2017-06-22T11:35:59+08:00 ] ::1 /wepay/admin.php/Product/cate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000148s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002842s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+
+[ 2017-06-22T11:37:09+08:00 ] ::1 /wepay/admin.php/Product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000152s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005064s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0162s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0014s ]
+
+[ 2017-06-22T11:37:40+08:00 ] ::1 /wepay/admin.php/Product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000148s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003336s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0154s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+
+[ 2017-06-22T11:39:37+08:00 ] ::1 /wepay/admin.php/Product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000176s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008914s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0151s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0233s ]
+NOTIC: [2048] Declaration of Admin\Model\ProductModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `we_product` [ RunTime:0.0141s ]
+NOTIC: [8] Undefined variable: where C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 61 行.
+SQL: SELECT COUNT(*) AS tp_count FROM we_product a INNER JOIN we_product_cate as b on a.pid =b.id  LIMIT 1   [ RunTime:0.0059s ]
+NOTIC: [8] Undefined variable: where C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 77 行.
+SQL: SELECT a.*,b.name as pname,FROM_UNIXTIME(a.add_time,'%Y-%m-%d %H:%i') as date FROM we_product a INNER JOIN we_product_cate as b on a.pid =b.id  ORDER BY id desc LIMIT 0,10   [ RunTime:0.0218s ]
+SQL: SELECT *,FROM_UNIXTIME(add_time,'%Y-%m-%d %H:%i') as date FROM `we_product_cate` ORDER BY id asc  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001894s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.107600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.108407s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002659s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009123s ]
+
+[ 2017-06-22T11:40:03+08:00 ] ::1 /wepay/admin.php/Product/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000153s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004192s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0144s ]
+NOTIC: [2048] Declaration of Admin\Model\ProductModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `we_product` [ RunTime:0.0147s ]
+NOTIC: [8] Undefined variable: where C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 61 行.
+SQL: SELECT COUNT(*) AS tp_count FROM we_product a INNER JOIN we_product_cate as b on a.pid =b.id  LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: where C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 77 行.
+SQL: SELECT a.*,b.name as pname,FROM_UNIXTIME(a.add_time,'%Y-%m-%d %H:%i') as date FROM we_product a INNER JOIN we_product_cate as b on a.pid =b.id  ORDER BY id desc LIMIT 0,10   [ RunTime:0.0115s ]
+SQL: SELECT *,FROM_UNIXTIME(add_time,'%Y-%m-%d %H:%i') as date FROM `we_product_cate` ORDER BY id asc  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000865s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001598s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090897s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004513s ]
+
+[ 2017-06-22T11:40:13+08:00 ] ::1 /wepay/admin.php/Product/getProduct/id/17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000159s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002837s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003230s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0149s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0145s ]
+NOTIC: [2048] Declaration of Admin\Model\ProductModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `we_product` [ RunTime:0.0151s ]
+SQL: SELECT * FROM `we_product` WHERE `id` = 17 ORDER BY id asc LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-06-22T11:41:13+08:00 ] ::1 /wepay/admin.php/Product/addProduct
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000146s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003664s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0128s ]
+NOTIC: [2048] Declaration of Admin\Model\ProductModel::page() should be compatible with Think\Model::page($page, $listRows = NULL) C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `we_product` [ RunTime:0.0131s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `we_product` WHERE `name` = '人民币/欧元' LIMIT 1   [ RunTime:0.0026s ]
+NOTIC: [8] Undefined index: auto C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `we_product` (`name`,`pid`,`api`,`desc`,`sort`,`state`,`add_time`) VALUES ('人民币/欧元','1','http://hl.anseo.cn/cal_CNY_To_EUR.aspx','人民币/欧元','1','0','1498102873') [ RunTime:0.0222s ]
+NOTIC: [8] Undefined variable: where C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 61 行.
+SQL: SELECT COUNT(*) AS tp_count FROM we_product a INNER JOIN we_product_cate as b on a.pid =b.id  LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: where C:\wamp\www\wepay\App\Admin\Model\ProductModel.class.php 第 77 行.
+SQL: SELECT a.*,b.name as pname,FROM_UNIXTIME(a.add_time,'%Y-%m-%d %H:%i') as date FROM we_product a INNER JOIN we_product_cate as b on a.pid =b.id  ORDER BY id desc LIMIT 0,10   [ RunTime:0.0113s ]
+

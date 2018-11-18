@@ -1,0 +1,2220 @@
+[ 2017-05-14T00:07:07+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004634s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0129s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T00:07:12+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003722s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0124s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `we_product_cate` WHERE `name` = '1111' LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: auto C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `we_product_cate` (`name`,`desc`,`add_time`) VALUES ('1111','','1494691632') [ RunTime:0.0157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002990s ]
+
+[ 2017-05-14T00:07:38+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003669s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0122s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T00:07:54+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005628s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0124s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T00:10:32+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+ERR: 模板不存在:./App/Admin/View/cate/add.html
+
+[ 2017-05-14T00:15:29+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004928s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0125s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T00:16:33+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004969s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T00:19:21+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003671s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0126s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T00:22:07+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+ERR: 模板不存在:./App/Admin/View//cate/add.html
+
+[ 2017-05-14T00:22:33+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+ERR: 模板不存在:./App/Admin/View/__CONTROLLER/cate/add.html
+
+[ 2017-05-14T00:22:43+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+ERR: 模板不存在:./App/Admin/View//wepay/admin.php/Product/cate/add.html
+
+[ 2017-05-14T00:31:40+08:00 ] ::1 /wepay/admin.php/Product/$(
+ERR: 非法操作:$(
+
+[ 2017-05-14T00:32:08+08:00 ] ::1 /wepay/admin.php/Product/%3Cform%20action=
+ERR: 非法操作:
+
+[ 2017-05-14T00:32:14+08:00 ] ::1 /wepay/admin.php/Product/%3Cform%20action=
+ERR: 非法操作:
+
+[ 2017-05-14T00:32:43+08:00 ] ::1 /wepay/admin.php/Product/%3Cform%20action=
+ERR: 非法操作:
+
+[ 2017-05-14T00:33:43+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005135s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0163s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T00:33:44+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004678s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0159s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0148s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T00:34:07+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009045s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0139s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T00:34:09+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004272s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0178s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T00:36:46+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005010s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0139s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T00:37:38+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005543s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0150s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T00:39:30+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004958s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T00:40:48+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005003s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0136s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T00:40:50+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004320s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0148s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T00:40:51+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004708s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0142s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T00:40:51+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004580s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0148s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T00:40:54+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005691s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0150s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `we_product_cate` WHERE `name` = '333' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2017-05-14T00:40:56+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010230s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0168s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0162s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `we_product_cate` WHERE `name` = '333' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2017-05-14T00:40:57+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006226s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `we_product_cate` WHERE `name` = '333' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-05-14T00:41:49+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005906s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0140s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T00:41:50+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004807s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0140s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T00:41:53+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004562s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0137s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T00:41:54+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004236s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0145s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T00:41:54+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004567s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0143s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T00:41:54+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005686s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0164s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0170s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T00:41:55+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006055s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0167s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0163s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T00:41:59+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007067s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0154s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `we_product_cate` WHERE `name` = '333' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2017-05-14T00:42:01+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004622s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0141s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `we_product_cate` WHERE `name` = '333' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-05-14T00:42:02+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004153s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0140s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `we_product_cate` WHERE `name` = '333' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-05-14T00:42:05+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005360s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0157s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `we_product_cate` WHERE `name` = '333' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-05-14T00:42:05+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007783s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0145s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `we_product_cate` WHERE `name` = '333' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2017-05-14T00:42:06+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005766s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0154s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0164s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `we_product_cate` WHERE `name` = '333' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2017-05-14T00:42:51+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004998s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0146s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T00:42:55+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006048s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0134s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `we_product_cate` WHERE `name` = '333' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-05-14T00:43:00+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004957s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0166s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0167s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `we_product_cate` WHERE `name` = '333' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-05-14T00:43:02+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004332s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0147s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `we_product_cate` WHERE `name` = '333' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-05-14T00:43:03+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004283s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0134s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `we_product_cate` WHERE `name` = '333' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-05-14T00:43:04+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004445s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0143s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `we_product_cate` WHERE `name` = '333' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-05-14T00:43:05+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004372s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0141s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `we_product_cate` WHERE `name` = '333' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-05-14T00:43:06+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004512s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0157s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0141s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `we_product_cate` WHERE `name` = '333' LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-05-14T00:43:44+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006499s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0138s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T00:43:46+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004141s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0143s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T00:43:47+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004661s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0159s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T00:44:06+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005074s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0144s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T00:44:09+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004386s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0159s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0138s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T00:44:10+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004490s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0143s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T00:44:10+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005585s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0163s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T00:44:10+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008596s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0157s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T00:44:15+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014161s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0164s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0163s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `we_product_cate` WHERE `name` = '333' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2017-05-14T00:44:21+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004539s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0146s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `we_product_cate` WHERE `name` = '333' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2017-05-14T00:44:22+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004268s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0142s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `we_product_cate` WHERE `name` = '333' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-05-14T00:44:22+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006559s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0167s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0170s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `we_product_cate` WHERE `name` = '333' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-05-14T00:44:23+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010783s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0177s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0157s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `we_product_cate` WHERE `name` = '333' LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-05-14T00:45:16+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005401s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `we_product_cate` WHERE `name` = '333' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-05-14T00:45:18+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004540s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0138s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `we_product_cate` WHERE `name` = '333' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2017-05-14T00:46:55+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011588s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0146s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `we_product_cate` WHERE `name` = '333' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2017-05-14T00:49:36+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006624s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0137s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T11:05:02+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004047s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0114s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T11:05:05+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003846s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0135s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `we_product_cate` WHERE `name` = '2222' LIMIT 1   [ RunTime:0.0048s ]
+NOTIC: [8] Undefined index: auto C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `we_product_cate` (`name`,`desc`,`add_time`) VALUES ('2222','','1494731105') [ RunTime:0.0323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003002s ]
+
+[ 2017-05-14T11:40:29+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003635s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0134s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T11:40:34+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003944s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0122s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `we_product_cate` WHERE `name` = '333' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-05-14T11:40:35+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003886s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0121s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `we_product_cate` WHERE `name` = '333' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-05-14T11:40:36+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003613s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0121s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `we_product_cate` WHERE `name` = '333' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-05-14T11:44:58+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004612s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0115s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `we_product_cate` WHERE `name` = '贵金属' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: auto C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `we_product_cate` (`name`,`desc`,`add_time`) VALUES ('贵金属','贵金属','1494733498') [ RunTime:0.0137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002906s ]
+
+[ 2017-05-14T11:45:05+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003628s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0116s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `we_product_cate` WHERE `name` = '贵金属' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-05-14T11:46:02+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005533s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0132s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `we_product_cate` WHERE `name` = '1111' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-05-14T11:46:05+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005260s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0121s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `we_product_cate` WHERE `name` = '1111111' LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: auto C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `we_product_cate` (`name`,`desc`,`add_time`) VALUES ('1111111','1111','1494733565') [ RunTime:0.0099s ]
+
+[ 2017-05-14T11:47:36+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003856s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0118s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T11:47:38+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003551s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0117s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T11:47:39+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003548s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T11:47:47+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004780s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0128s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `we_product_cate` WHERE `name` = '5688888' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: auto C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `we_product_cate` (`name`,`desc`,`add_time`) VALUES ('5688888','7777777777777777777777','1494733667') [ RunTime:0.0100s ]
+
+[ 2017-05-14T11:51:20+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004682s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0132s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T11:51:23+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003562s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0122s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T11:51:23+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003594s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0123s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T11:51:24+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004038s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0263s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0147s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T11:51:24+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004168s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0153s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T11:51:24+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004343s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0151s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T11:51:24+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004390s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0143s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T11:51:25+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004660s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0135s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T11:55:37+08:00 ] ::1 /wepay/admin.php/Product/cate
+ERR: 1054:Champ 'sort_id' inconnu dans order clause
+ [ SQL语句 ] : SELECT * FROM `we_product_cate` ORDER BY sort_id asc 
+
+[ 2017-05-14T16:57:30+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004466s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0125s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T16:57:31+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004331s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0140s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T16:57:34+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004295s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0116s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T16:57:35+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004251s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0141s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T16:57:36+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007178s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0132s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T16:57:37+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005165s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0137s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T17:54:49+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005125s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0119s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `we_product_cate` WHERE `name` = '22货币' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: auto C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `we_product_cate` (`name`,`desc`,`add_time`) VALUES ('22货币','22货币','1494755689') [ RunTime:0.0126s ]
+
+[ 2017-05-14T17:56:58+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004699s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0133s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `we_product_cate` WHERE `name` = '33' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: auto C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `we_product_cate` (`name`,`desc`,`add_time`) VALUES ('33','333','1494755818') [ RunTime:0.0078s ]
+SQL: SELECT *,FROM_UNIXTIME(add_time,'%Y-%m-%d %H:%i:%s') as date FROM `we_product_cate` ORDER BY id asc  [ RunTime:0.0008s ]
+
+[ 2017-05-14T20:33:15+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004055s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0129s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T21:33:11+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007871s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0129s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T21:33:13+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003702s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0178s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0182s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T21:33:13+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005678s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0162s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T21:33:13+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004473s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0165s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0137s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T21:33:13+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004038s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0146s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T21:33:14+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004573s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0165s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T21:33:14+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005469s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0242s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T21:33:14+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005463s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0175s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0188s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T21:33:14+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006463s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0142s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T21:33:14+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006563s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0151s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0175s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T21:33:15+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003758s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0127s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T21:33:16+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007147s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0136s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T21:33:16+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006223s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0159s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T21:33:16+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004056s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0460s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0171s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T21:33:17+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004115s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0174s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0175s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T21:33:17+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004060s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0147s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T21:33:17+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005258s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0158s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0185s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T21:33:17+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004524s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0194s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0166s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T21:33:18+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007801s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0179s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0151s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T21:33:25+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003755s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0141s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T21:33:26+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003869s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0173s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T21:33:27+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003615s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0195s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0159s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T21:39:58+08:00 ] ::1 /wepay/admin.php/Product/cateDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004239s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0133s ]
+NOTIC: [2] Missing argument 1 for Admin\Repository\ProductRepository::cateDel(), called in C:\wamp\www\wepay\App\Admin\Controller\ProductController.class.php on line 26 and defined C:\wamp\www\wepay\App\Admin\Repository\ProductRepository.php 第 70 行.
+
+[ 2017-05-14T21:40:30+08:00 ] ::1 /wepay/admin.php/Product/cateDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003691s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0129s ]
+NOTIC: [2] Missing argument 1 for Admin\Repository\ProductRepository::cateDel(), called in C:\wamp\www\wepay\App\Admin\Controller\ProductController.class.php on line 26 and defined C:\wamp\www\wepay\App\Admin\Repository\ProductRepository.php 第 70 行.
+
+[ 2017-05-14T21:41:04+08:00 ] ::1 /wepay/admin.php/Product/cateDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004494s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0116s ]
+NOTIC: [2] Missing argument 1 for Admin\Repository\ProductRepository::cateDel(), called in C:\wamp\www\wepay\App\Admin\Controller\ProductController.class.php on line 26 and defined C:\wamp\www\wepay\App\Admin\Repository\ProductRepository.php 第 70 行.
+
+[ 2017-05-14T21:42:47+08:00 ] ::1 /wepay/admin.php/Product/cateDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003693s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0192s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0124s ]
+NOTIC: [2] Missing argument 1 for Admin\Repository\ProductRepository::cateDel(), called in C:\wamp\www\wepay\App\Admin\Controller\ProductController.class.php on line 26 and defined C:\wamp\www\wepay\App\Admin\Repository\ProductRepository.php 第 70 行.
+
+[ 2017-05-14T21:44:33+08:00 ] ::1 /wepay/admin.php/Product/cateDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004506s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0131s ]
+NOTIC: [2] Missing argument 1 for Admin\Repository\ProductRepository::cateDel(), called in C:\wamp\www\wepay\App\Admin\Controller\ProductController.class.php on line 26 and defined C:\wamp\www\wepay\App\Admin\Repository\ProductRepository.php 第 70 行.
+
+[ 2017-05-14T21:46:11+08:00 ] ::1 /wepay/admin.php/Product/cateDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003780s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0144s ]
+NOTIC: [2] Missing argument 1 for Admin\Repository\ProductRepository::cateDel(), called in C:\wamp\www\wepay\App\Admin\Controller\ProductController.class.php on line 26 and defined C:\wamp\www\wepay\App\Admin\Repository\ProductRepository.php 第 70 行.
+
+[ 2017-05-14T21:46:18+08:00 ] ::1 /wepay/admin.php/Product/cateDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004477s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0131s ]
+NOTIC: [2] Missing argument 1 for Admin\Repository\ProductRepository::cateDel(), called in C:\wamp\www\wepay\App\Admin\Controller\ProductController.class.php on line 26 and defined C:\wamp\www\wepay\App\Admin\Repository\ProductRepository.php 第 70 行.
+
+[ 2017-05-14T21:47:59+08:00 ] ::1 /wepay/admin.php/Product/cateDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003877s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0123s ]
+
+[ 2017-05-14T21:48:55+08:00 ] ::1 /wepay/admin.php/Product/cateDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004226s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0120s ]
+NOTIC: [8] Array to string conversion C:\wamp\www\wepay\App\Admin\Repository\ProductRepository.php 第 74 行.
+
+[ 2017-05-14T21:49:12+08:00 ] ::1 /wepay/admin.php/Product/cateDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003988s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0129s ]
+
+[ 2017-05-14T21:49:21+08:00 ] ::1 /wepay/admin.php/Product/cateDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003653s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0127s ]
+
+[ 2017-05-14T21:49:59+08:00 ] ::1 /wepay/admin.php/Product/cateDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004753s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0118s ]
+
+[ 2017-05-14T21:50:35+08:00 ] ::1 /wepay/admin.php/Product/cateDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004298s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0124s ]
+
+[ 2017-05-14T21:52:18+08:00 ] ::1 /wepay/admin.php/Product/cateDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003783s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0142s ]
+
+[ 2017-05-14T21:53:32+08:00 ] ::1 /wepay/admin.php/Product/cateDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003810s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+
+[ 2017-05-14T21:53:50+08:00 ] ::1 /wepay/admin.php/Product/cateDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003688s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0132s ]
+
+[ 2017-05-14T21:54:11+08:00 ] ::1 /wepay/admin.php/Product/cateDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004730s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0124s ]
+
+[ 2017-05-14T21:54:59+08:00 ] ::1 /wepay/admin.php/Product/cateDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004340s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0120s ]
+ERR: 1064:Erreur de syntaxe près de 'in ) AND (  `id` = '' )' à la ligne 1
+ [ SQL语句 ] : DELETE FROM `we_product_cate` WHERE (  in ) AND (  `id` = '' )
+ERR: 1064:Erreur de syntaxe près de 'in ) AND (  `id` = '' )' à la ligne 1
+ [ SQL语句 ] : DELETE FROM `we_product_cate` WHERE (  in ) AND (  `id` = '' )
+
+[ 2017-05-14T21:55:01+08:00 ] ::1 /wepay/admin.php/Product/cateDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003554s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0120s ]
+ERR: 1064:Erreur de syntaxe près de 'in ) AND (  `id` = '' )' à la ligne 1
+ [ SQL语句 ] : DELETE FROM `we_product_cate` WHERE (  in ) AND (  `id` = '' )
+ERR: 1064:Erreur de syntaxe près de 'in ) AND (  `id` = '' )' à la ligne 1
+ [ SQL语句 ] : DELETE FROM `we_product_cate` WHERE (  in ) AND (  `id` = '' )
+
+[ 2017-05-14T21:55:35+08:00 ] ::1 /wepay/admin.php/Product/cateDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003940s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0128s ]
+
+[ 2017-05-14T21:57:41+08:00 ] ::1 /wepay/admin.php/Product/cateDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004455s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0126s ]
+SQL: DELETE FROM `we_product_cate` WHERE `id` IN ('') [ RunTime:0.0007s ]
+
+[ 2017-05-14T21:57:51+08:00 ] ::1 /wepay/admin.php/Product/cateDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004533s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0129s ]
+SQL: DELETE FROM `we_product_cate` WHERE `id` IN ('') [ RunTime:0.0006s ]
+
+[ 2017-05-14T21:57:53+08:00 ] ::1 /wepay/admin.php/Product/cateDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003563s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0118s ]
+SQL: DELETE FROM `we_product_cate` WHERE `id` IN ('') [ RunTime:0.0007s ]
+
+[ 2017-05-14T21:58:35+08:00 ] ::1 /wepay/admin.php/Product/cateDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005016s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0133s ]
+
+[ 2017-05-14T21:59:07+08:00 ] ::1 /wepay/admin.php/Product/cateDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004224s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0124s ]
+
+[ 2017-05-14T21:59:23+08:00 ] ::1 /wepay/admin.php/Product/cateDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003535s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0130s ]
+SQL: DELETE FROM `we_product_cate` WHERE `id` IN ('9','8') [ RunTime:0.0183s ]
+SQL: SELECT *,FROM_UNIXTIME(add_time,'%Y-%m-%d %H:%i:%s') as date FROM `we_product_cate` ORDER BY id asc  [ RunTime:0.0008s ]
+
+[ 2017-05-14T22:03:56+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004375s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0126s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `we_product_cate` WHERE `name` = '22' LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: auto C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `we_product_cate` (`name`,`desc`,`add_time`) VALUES ('22','22','1494770636') [ RunTime:0.0058s ]
+SQL: SELECT *,FROM_UNIXTIME(add_time,'%Y-%m-%d %H:%i:%s') as date FROM `we_product_cate` ORDER BY id asc  [ RunTime:0.0008s ]
+
+[ 2017-05-14T22:04:02+08:00 ] ::1 /wepay/admin.php/Product/cateDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005836s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0133s ]
+SQL: DELETE FROM `we_product_cate` WHERE `id` IN ('10') [ RunTime:0.0173s ]
+SQL: SELECT *,FROM_UNIXTIME(add_time,'%Y-%m-%d %H:%i:%s') as date FROM `we_product_cate` ORDER BY id asc  [ RunTime:0.0009s ]
+
+[ 2017-05-14T22:04:19+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008284s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0173s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0199s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `we_product_cate` WHERE `name` = '33' LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: auto C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `we_product_cate` (`name`,`desc`,`add_time`) VALUES ('33','33','1494770659') [ RunTime:0.0143s ]
+SQL: SELECT *,FROM_UNIXTIME(add_time,'%Y-%m-%d %H:%i:%s') as date FROM `we_product_cate` ORDER BY id asc  [ RunTime:0.0012s ]
+
+[ 2017-05-14T22:05:36+08:00 ] ::1 /wepay/admin.php/Product/cateDels
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004541s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0128s ]
+ERR: 非法操作:cateDels
+
+[ 2017-05-14T22:08:12+08:00 ] ::1 /wepay/admin.php/Product/cateDels
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004558s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0169s ]
+ERR: 非法操作:cateDels
+
+[ 2017-05-14T22:09:37+08:00 ] ::1 /wepay/admin.php/Product/cateDels
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007105s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0126s ]
+ERR: 非法操作:cateDels
+
+[ 2017-05-14T22:10:34+08:00 ] ::1 /wepay/admin.php/Product/cateDels
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004770s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0130s ]
+ERR: 非法操作:cateDels
+
+[ 2017-05-14T22:11:36+08:00 ] ::1 /wepay/admin.php/Product/cateDels
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003870s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0117s ]
+ERR: 非法操作:cateDels
+
+[ 2017-05-14T22:12:00+08:00 ] ::1 /wepay/admin.php/Product/cateDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004311s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0243s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0212s ]
+SQL: DELETE FROM `we_product_cate` WHERE `id` IN ('11') [ RunTime:0.0241s ]
+SQL: SELECT *,FROM_UNIXTIME(add_time,'%Y-%m-%d %H:%i:%s') as date FROM `we_product_cate` ORDER BY id asc  [ RunTime:0.0017s ]
+
+[ 2017-05-14T22:24:01+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005183s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0132s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `we_product_cate` WHERE `name` = '22' LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: auto C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `we_product_cate` (`name`,`desc`,`add_time`) VALUES ('22','22','1494771841') [ RunTime:0.0128s ]
+SQL: SELECT *,FROM_UNIXTIME(add_time,'%Y-%m-%d %H:%i:%s') as date FROM `we_product_cate` ORDER BY id asc  [ RunTime:0.0008s ]
+
+[ 2017-05-14T22:27:11+08:00 ] ::1 /wepay/admin.php/Product/cateDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004632s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0133s ]
+SQL: DELETE FROM `we_product_cate` WHERE `id` IN ('12') [ RunTime:0.0086s ]
+SQL: SELECT *,FROM_UNIXTIME(add_time,'%Y-%m-%d %H:%i:%s') as date FROM `we_product_cate` ORDER BY id asc  [ RunTime:0.0009s ]
+
+[ 2017-05-14T22:27:21+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006854s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0121s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `we_product_cate` WHERE `name` = '33' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `we_product_cate` (`name`,`desc`,`add_time`) VALUES ('33','33','1494772041') [ RunTime:0.0099s ]
+SQL: SELECT *,FROM_UNIXTIME(add_time,'%Y-%m-%d %H:%i:%s') as date FROM `we_product_cate` ORDER BY id asc  [ RunTime:0.0013s ]
+
+[ 2017-05-14T22:52:17+08:00 ] ::1 /wepay/admin.php/Product/cateDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004532s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0120s ]
+SQL: DELETE FROM `we_product_cate` WHERE `id` IN ('13') [ RunTime:0.0196s ]
+SQL: SELECT *,FROM_UNIXTIME(add_time,'%Y-%m-%d %H:%i:%s') as date FROM `we_product_cate` ORDER BY id asc  [ RunTime:0.0014s ]
+
+[ 2017-05-14T22:53:59+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005907s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0258s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `we_product_cate` WHERE `name` = '44' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: auto C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `we_product_cate` (`name`,`desc`,`add_time`) VALUES ('44','444','1494773639') [ RunTime:0.0098s ]
+SQL: SELECT *,FROM_UNIXTIME(add_time,'%Y-%m-%d %H:%i:%s') as date FROM `we_product_cate` ORDER BY id asc  [ RunTime:0.0008s ]
+
+[ 2017-05-14T22:54:37+08:00 ] ::1 /wepay/admin.php/Product/cateDel
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003616s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0239s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0136s ]
+SQL: DELETE FROM `we_product_cate` WHERE `id` IN ('14') [ RunTime:0.0139s ]
+SQL: SELECT *,FROM_UNIXTIME(add_time,'%Y-%m-%d %H:%i:%s') as date FROM `we_product_cate` ORDER BY id asc  [ RunTime:0.0008s ]
+
+[ 2017-05-14T23:06:00+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004641s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0116s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T23:18:07+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006073s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 2 ORDER BY id asc LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-05-14T23:20:15+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005472s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 1 ORDER BY id asc LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-05-14T23:20:18+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004599s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 2 ORDER BY id asc LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-05-14T23:20:39+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003756s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 1 ORDER BY id asc LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-05-14T23:20:51+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004075s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 1 ORDER BY id asc LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2017-05-14T23:20:55+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004405s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 2 ORDER BY id asc LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2017-05-14T23:20:57+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004678s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 1 ORDER BY id asc LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-05-14T23:21:45+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005817s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 1 ORDER BY id asc LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-05-14T23:21:48+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006100s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 2 ORDER BY id asc LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-05-14T23:24:03+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006097s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 1 ORDER BY id asc LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2017-05-14T23:24:07+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003895s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 2 ORDER BY id asc LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-05-14T23:24:12+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006018s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 2 ORDER BY id asc LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2017-05-14T23:24:19+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003827s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0116s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T23:25:28+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005777s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 2 ORDER BY id asc LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2017-05-14T23:25:33+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004547s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0118s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `we_product_cate` SET `name`='贵金属',`desc`='贵金属交易' WHERE `id` = 2 [ RunTime:0.0178s ]
+
+[ 2017-05-14T23:26:57+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005988s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0149s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 2 ORDER BY id asc LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-05-14T23:27:00+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006059s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0241s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `we_product_cate` SET `name`='贵金属',`desc`='贵金属交易。。。' WHERE `id` = 2 [ RunTime:0.0058s ]
+
+[ 2017-05-14T23:27:17+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004269s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0129s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `we_product_cate` SET `name`='贵金属',`desc`='贵金属交易。。。' WHERE `id` = 2 [ RunTime:0.0252s ]
+
+[ 2017-05-14T23:28:05+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004558s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0158s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 2 ORDER BY id asc LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2017-05-14T23:28:09+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005204s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0146s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `we_product_cate` SET `name`='贵金属',`desc`='贵金属交易。。。。' WHERE `id` = 2 [ RunTime:0.0124s ]
+SQL: SELECT *,FROM_UNIXTIME(add_time,'%Y-%m-%d %H:%i:%s') as date FROM `we_product_cate` ORDER BY id asc  [ RunTime:0.0009s ]
+
+[ 2017-05-14T23:28:23+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004963s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 1 ORDER BY id asc LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-05-14T23:28:26+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003651s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 1 ORDER BY id asc LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-05-14T23:28:31+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007157s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 2 ORDER BY id asc LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-05-14T23:28:33+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003889s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 1 ORDER BY id asc LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-05-14T23:28:43+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007045s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `we_product_cate` SET `name`='货币',`desc`='货币交易。。。。' WHERE `id` = 1 [ RunTime:0.0273s ]
+SQL: SELECT *,FROM_UNIXTIME(add_time,'%Y-%m-%d %H:%i:%s') as date FROM `we_product_cate` ORDER BY id asc  [ RunTime:0.0008s ]
+
+[ 2017-05-14T23:28:49+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006705s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0184s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 1 ORDER BY id asc LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2017-05-14T23:28:51+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004396s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0247s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 2 ORDER BY id asc LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-05-14T23:28:54+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004236s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0178s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 1 ORDER BY id asc LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2017-05-14T23:28:57+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006218s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0169s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0194s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 2 ORDER BY id asc LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2017-05-14T23:29:00+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006773s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0154s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0139s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `we_product_cate` SET `name`='贵金属',`desc`='贵金属交易。。。。。' WHERE `id` = 2 [ RunTime:0.0101s ]
+SQL: SELECT *,FROM_UNIXTIME(add_time,'%Y-%m-%d %H:%i:%s') as date FROM `we_product_cate` ORDER BY id asc  [ RunTime:0.0009s ]
+
+[ 2017-05-14T23:29:02+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004622s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0163s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 1 ORDER BY id asc LIMIT 1   [ RunTime:0.0016s ]
+
+[ 2017-05-14T23:29:05+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004258s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 1 ORDER BY id asc LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2017-05-14T23:29:07+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004087s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0168s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0214s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 1 ORDER BY id asc LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2017-05-14T23:29:35+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004355s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0157s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0149s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 1 ORDER BY id asc LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2017-05-14T23:29:50+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004410s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0118s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `we_product_cate` SET `name`='货币',`desc`='货币交易描述' WHERE `id` = 1 [ RunTime:0.0156s ]
+SQL: SELECT *,FROM_UNIXTIME(add_time,'%Y-%m-%d %H:%i:%s') as date FROM `we_product_cate` ORDER BY id asc  [ RunTime:0.0008s ]
+
+[ 2017-05-14T23:29:53+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011986s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 2 ORDER BY id asc LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2017-05-14T23:30:40+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003913s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 1 ORDER BY id asc LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-05-14T23:30:44+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003853s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0121s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-05-14T23:32:50+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005250s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 1 ORDER BY id asc LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2017-05-14T23:32:54+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004066s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0131s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `we_product_cate` SET `name`='货币',`desc`='货币交易描述...' WHERE `id` = 1 [ RunTime:0.0069s ]
+SQL: SELECT *,FROM_UNIXTIME(add_time,'%Y-%m-%d %H:%i:%s') as date FROM `we_product_cate` ORDER BY id asc  [ RunTime:0.0008s ]
+
+[ 2017-05-14T23:33:05+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004061s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 2 ORDER BY id asc LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2017-05-14T23:35:31+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004738s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 1 ORDER BY id asc LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-05-14T23:35:34+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003889s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0126s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `we_product_cate` SET `name`='货币',`desc`='货币交易描述....' WHERE `id` = 1 [ RunTime:0.0236s ]
+SQL: SELECT *,FROM_UNIXTIME(add_time,'%Y-%m-%d %H:%i:%s') as date FROM `we_product_cate` ORDER BY id asc  [ RunTime:0.0007s ]
+
+[ 2017-05-14T23:35:37+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006206s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0255s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 2 ORDER BY id asc LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2017-05-14T23:35:42+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003987s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0131s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `we_product_cate` SET `name`='贵金属',`desc`='货币交易描述.......' WHERE `id` = 2 [ RunTime:0.0085s ]
+SQL: SELECT *,FROM_UNIXTIME(add_time,'%Y-%m-%d %H:%i:%s') as date FROM `we_product_cate` ORDER BY id asc  [ RunTime:0.0007s ]
+
+[ 2017-05-14T23:35:44+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012577s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 2 ORDER BY id asc LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-05-14T23:36:38+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004499s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 2 ORDER BY id asc LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-05-14T23:38:13+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006902s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0127s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `we_product_cate` SET `name`='贵金属',`desc`='贵金属交易描述.......' WHERE `id` = 2 [ RunTime:0.0232s ]
+SQL: SELECT *,FROM_UNIXTIME(add_time,'%Y-%m-%d %H:%i:%s') as date FROM `we_product_cate` ORDER BY id asc  [ RunTime:0.0009s ]
+
+[ 2017-05-14T23:38:16+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008177s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 2 ORDER BY id asc LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2017-05-14T23:38:23+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004306s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 1 ORDER BY id asc LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-05-14T23:38:51+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005711s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 1 ORDER BY id asc LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-05-14T23:38:55+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004981s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0126s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `we_product_cate` SET `name`='货币',`desc`=' 货币交易描述.... 。' WHERE `id` = 1 [ RunTime:0.0131s ]
+SQL: SELECT *,FROM_UNIXTIME(add_time,'%Y-%m-%d %H:%i:%s') as date FROM `we_product_cate` ORDER BY id asc  [ RunTime:0.0007s ]
+
+[ 2017-05-14T23:38:57+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007169s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 2 ORDER BY id asc LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-05-14T23:39:01+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004006s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 2 ORDER BY id asc LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-05-14T23:39:03+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004780s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 2 ORDER BY id asc LIMIT 1   [ RunTime:0.0013s ]
+
+[ 2017-05-14T23:39:14+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004604s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 2 ORDER BY id asc LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-05-14T23:39:28+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004462s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 2 ORDER BY id asc LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-05-14T23:39:37+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003787s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0124s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `we_product_cate` SET `name`='贵金属1',`desc`='贵金属交易描述.... 。' WHERE `id` = 2 [ RunTime:0.0062s ]
+SQL: SELECT *,FROM_UNIXTIME(add_time,'%Y-%m-%d %H:%i:%s') as date FROM `we_product_cate` ORDER BY id asc  [ RunTime:0.0008s ]
+
+[ 2017-05-14T23:39:39+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004675s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 1 ORDER BY id asc LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-05-14T23:39:46+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005593s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 2 ORDER BY id asc LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-05-14T23:39:50+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004692s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0135s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `we_product_cate` SET `name`='贵金属',`desc`='贵金属交易描述.... 。' WHERE `id` = 2 [ RunTime:0.0132s ]
+SQL: SELECT *,FROM_UNIXTIME(add_time,'%Y-%m-%d %H:%i:%s') as date FROM `we_product_cate` ORDER BY id asc  [ RunTime:0.0008s ]
+
+[ 2017-05-14T23:39:58+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005206s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 1 ORDER BY id asc LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2017-05-14T23:40:05+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005106s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `we_product_cate` SET `name`='货币',`desc`='货币交易描述.... ' WHERE `id` = 1 [ RunTime:0.0126s ]
+SQL: SELECT *,FROM_UNIXTIME(add_time,'%Y-%m-%d %H:%i:%s') as date FROM `we_product_cate` ORDER BY id asc  [ RunTime:0.0008s ]
+
+[ 2017-05-14T23:40:08+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004311s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 2 ORDER BY id asc LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2017-05-14T23:40:40+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005355s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 2 ORDER BY id asc LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-05-14T23:40:43+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006005s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 1 ORDER BY id asc LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2017-05-14T23:40:46+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003870s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 2 ORDER BY id asc LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2017-05-14T23:40:49+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006839s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0121s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `we_product_cate` SET `name`='贵金属',`desc`='贵金属交易描述....' WHERE `id` = 2 [ RunTime:0.0129s ]
+SQL: SELECT *,FROM_UNIXTIME(add_time,'%Y-%m-%d %H:%i:%s') as date FROM `we_product_cate` ORDER BY id asc  [ RunTime:0.0008s ]
+
+[ 2017-05-14T23:40:50+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006358s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 1 ORDER BY id asc LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-05-14T23:41:39+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008410s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0129s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `we_product_cate` WHERE `name` = '33' LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: auto C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `we_product_cate` (`name`,`desc`,`add_time`) VALUES ('33','33','1494776499') [ RunTime:0.0108s ]
+SQL: SELECT *,FROM_UNIXTIME(add_time,'%Y-%m-%d %H:%i:%s') as date FROM `we_product_cate` ORDER BY id asc  [ RunTime:0.0008s ]
+
+[ 2017-05-14T23:41:42+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007799s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0158s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 15 ORDER BY id asc LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-05-14T23:41:49+08:00 ] ::1 /wepay/admin.php/Product/cateAdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005100s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0133s ]
+NOTIC: [8] Undefined index: validate C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp\www\wepay\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `we_product_cate` SET `name`='我是33',`desc`='我是33' WHERE `id` = 15 [ RunTime:0.0119s ]
+SQL: SELECT *,FROM_UNIXTIME(add_time,'%Y-%m-%d %H:%i:%s') as date FROM `we_product_cate` ORDER BY id asc  [ RunTime:0.0008s ]
+
+[ 2017-05-14T23:41:51+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006056s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 2 ORDER BY id asc LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-05-14T23:41:55+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/15
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004057s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 15 ORDER BY id asc LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2017-05-14T23:42:45+08:00 ] ::1 /wepay/admin.php/Product/getCate/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003957s ]
+SQL: SHOW COLUMNS FROM `we_menu` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `we_menu` ORDER BY sort asc,id asc  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `we_product_cate` [ RunTime:0.0173s ]
+SQL: SELECT * FROM `we_product_cate` WHERE `id` = 1 ORDER BY id asc LIMIT 1   [ RunTime:0.0010s ]
+

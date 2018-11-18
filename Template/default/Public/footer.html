@@ -1,0 +1,35 @@
+       <div  style="height:56px;"></div> 
+
+        <footer class="ui-footer ui-footer-btn">
+            <ul class="ui-tiled ui-border-t">
+                <li data-href="{:U('Index/index')}" class="ui-border-r"><div>商品行情</div></li>
+                <li data-href="{:U('Pay/index')}" class="ui-border-r"><div>交易记录</div></li>
+                <li data-href="{:U('User/index')}"><div>个人账户</div></li>
+            </ul>
+        </footer>
+
+        <script>
+        $('.ui-list li,.ui-tiled li').click(function(){
+            if($(this).data('href')){
+                location.href= $(this).data('href');
+            }
+        });
+        $('.ui-header .ui-btn').click(function(){
+            location.href= "{:U('Index/index')}";
+        });
+        </script>
+
+        <script class="demo-script">
+        (function (){
+            var tab = new fz.Scroll('.ui-tab', {
+                role: 'tab',
+                autoplay: false,
+                interval: 3000
+            });
+            /* 滑动开始前 */
+            tab.on('beforeScrollStart', function(fromIndex, toIndex) {
+                console.log(fromIndex,toIndex);// from 为当前页，to 为下一页
+            })
+        })();
+
+        </script>        

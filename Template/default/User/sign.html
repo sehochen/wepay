@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="format-detection" content="telephone=no">
+        <title>个人中心-签约</title>
+        <link rel="stylesheet" href="__STATIC__/css/frozen.css">
+        <script src="__STATIC__/lib/zepto.min.js"></script>
+        <script src="__STATIC__/js/frozen.js"></script>
+    </head>
+    
+    <body ontouchstart>
+        <header class="ui-header ui-header-positive ui-border-b">
+            <h1>个人中心-签约</h1>
+        </header>
+
+
+        <section class="ui-container">
+            <div class="ui-flex ui-flex-pack-center"  style="background-image:url(__STATIC__/images/bg.png);background-repeat:no-repeat;background-size:cover;height:150px;">
+                    <div  style="margin-top:10px;"> 
+                        <img src="__STATIC__/images/head80.jpg" alt="" id="head"> 
+                        <div class="ui-flex ui-flex-pack-center ui-txt-muted"> 
+                            <span> <h1>bool</h1> </span>
+                        </div>
+                        <div class="ui-flex ui-flex-pack-center ui-txt-muted"> 
+                            <span class="ui-txt-success"> <h3>￥0.0</h3> </span>
+                        </div>
+                    </div>
+            </div>
+
+
+<!-- userNav -->
+    <include file="Public/userNav"/>
+<!-- userNav -->
+
+
+
+            <ul class="ui-list ui-list-link ui-list-one">
+
+                <!--<li class="ui-border-t">
+                    <div class="ui-list-icon">
+                        <span style="background-image:url(http://placeholder.qiniudn.com/80x80)"></span>
+                    </div>
+                    <div class="ui-list-info">
+                        <h4 class="ui-nowrap">银行</h4>
+                    </div>
+                </li>-->
+
+                <li class="ui-border-t" onclick="javascript:window.location.href='__MODULE__/Sign/alipay';">
+                    <div class="ui-list-icon">
+                        <span style="background-image:url('__STATIC__/images/alipay.png')"></span>
+                    </div>
+                    <div class="ui-list-info">
+                        <h4 class="ui-nowrap">支付宝</h4>
+                    </div>
+                </li>
+
+                <li class="ui-border-t" onclick="javascript:window.location.href='__MODULE__/Sign/wechat'; ">
+                    <div class="ui-list-icon">
+                        <span style="background-image:url('__STATIC__/images/wechat.png')"></span>
+                    </div>
+                    <div class="ui-list-info">
+                        <h4 class="ui-nowrap">微信</h4>
+                        <div class="ui-txt-info ui-badge">未签约</div>
+                    </div>
+                </li> 
+
+                <!--<li class="ui-border-t">
+                    <div class="ui-list-icon">
+                        <span style="background-image:url(http://placeholder.qiniudn.com/80x80)"></span>
+                    </div>
+                    <div class="ui-list-info">
+                        <h4 class="ui-nowrap">财付通</h4>
+                        <div class="ui-txt-info ui-badge">未签约</div>
+                    </div>
+                </li>  -->
+
+            </ul>
+        </section>
+
+<!-- footer -->
+    <include file="Public/footer"/>
+<!-- footer -->
+</body>
+</html>

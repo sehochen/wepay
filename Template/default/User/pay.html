@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="format-detection" content="telephone=no">
+        <title>个人中心-资金明细</title>
+        <link rel="stylesheet" href="__STATIC__/css/frozen.css">
+        <script src="__STATIC__/lib/zepto.min.js"></script>
+        <script src="__STATIC__/js/frozen.js"></script>
+    </head>
+    <body ontouchstart>
+        <header class="ui-header ui-header-positive ui-border-b">
+            <h1>个人中心-资金明细</h1>
+        </header>
+
+
+        <section class="ui-container">
+            <div class="ui-flex ui-flex-pack-center"  style="background-image:url(__STATIC__/images/bg.png);background-repeat:no-repeat;background-size:cover;height:150px;">
+                    <div  style="margin-top:10px;"> 
+                        <img src="__STATIC__/images/head80.jpg" alt="" id="head"> 
+                        <div class="ui-flex ui-flex-pack-center ui-txt-muted"> 
+                            <span> <h1>bool</h1> </span>
+                        </div>
+                        <div class="ui-flex ui-flex-pack-center ui-txt-muted"> 
+                            <span class="ui-txt-success"> <h3>￥0.0</h3> </span>
+                        </div>
+                    </div>
+            </div>
+
+<!-- userNav -->
+    <include file="Public/userNav"/>
+<!-- userNav -->
+
+                <div class="ui-tab">
+                    <ul class="ui-tab-nav ">
+                        <li class="current">全部</li>
+                        <li>充值</li>
+                        <li>提现</li>
+                        <li>收入</li>
+                        <li>支出</li>
+                    </ul>
+                </div>
+ 
+
+                            <table class="ui-table ">
+                                <thead>
+                                    <tr><th>操作</th><th>详情</th><th>金额</th><th>时间</th></tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="ui-txt-muted">
+                                        <td><h5>支出</h5></td>
+                                        <td><h6>购买日元兑美元</h6></td>
+                                        <td class="ui-txt-success">+0.8</td>
+                                        <td> <h4>2017-5-30 20:30</h4> </td>
+                                    </tr>                                    
+                                    <tr class="ui-txt-muted">
+                                        <td> <h5>消费</h5> </td>
+                                        <td><h6>购买日元兑美元</h6></td>
+                                        <td class="ui-txt-warning">-0.8</td>
+                                        <td> <h4>2017-5-30 20:30</h4> </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+        </section>
+
+
+<!-- footer -->
+    <include file="Public/footer"/>
+<!-- footer -->
+
+</body>
+</html>

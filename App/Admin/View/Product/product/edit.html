@@ -1,0 +1,92 @@
+﻿<div class="modal fade" tabindex="-1" id="editCate" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" >
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title">编辑产品</h4></div>
+      <div class="modal-body">
+
+
+  <form action="__CONTROLLER__/cateEdit" method="post" id="upRes">  
+
+              <div class="panel panel-white">
+                <div class="panel-body form-horizontal">
+                
+                    <!-- id -->
+                    <input type="hidden" name="id" :value="upData.id">
+
+                    <div class="form-group">
+                      <label class="col-md-2 control-label">* 名称：</label>
+                      <div class="col-md-9">
+                        <input type="text" class="form-control" placeholder="名称" name="name" :value="upData.name" />
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label class="col-md-2 control-label">* 分类：</label>
+                      <div class="col-md-9">
+                        <select name="pid" class="selectpicker col-md-12" v-model="upData.pid">
+                            <option v-for="item in cate" :value="item.id" v-text="item.name"></option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label class="col-md-2 control-label">* 接口：</label>
+                      <div class="col-md-9">
+                        <input type="text" class="form-control" placeholder="接口" name="api" :value="upData.api"/>
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label class="col-md-2 control-label"> 描述：</label>
+                      <div class="col-md-9">
+                        <textarea class="form-control" rows="2" name="desc" :value="upData.desc"></textarea>
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label class="col-md-2 control-label"> 排序：</label>
+                      <div class="col-md-9">
+                        <input type="text" class="form-control" placeholder="排序" name="sort" :value="upData.sort"/>
+                      </div>
+                    </div>
+
+                    <div id="sex" class="form-group">
+                      <label class="col-md-2 control-label">状态：</label>
+                      <div class="col-md-4">
+                        <div class="btn-group aa" data-toggle="buttons">
+                          
+
+                          <label class="btn btn-default btn-sm" :class="[upData.state==0 ? 'active' :0 ]">
+                            <input type="radio" name="state"  value="0"  v-model="upData.state"/>启用
+                          </label>
+
+                          <label class="btn btn-default btn-sm" :class="[upData.state==1 ? 'active' : '']">
+                            <input type="radio" name="state"  value="1"  v-model="upData.state"/>禁用
+                          </label>
+
+                        </div>
+                      </div>
+                    </div>
+
+
+
+                  </div> 
+                </div>
+
+</form>  
+
+
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-success" style="width:100px;margin-right:5px;" @click="addProduct('upRes','editCate')">保存</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+

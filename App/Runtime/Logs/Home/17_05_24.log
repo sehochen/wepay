@@ -1,0 +1,38 @@
+[ 2017-05-24T18:42:26+08:00 ] ::1 /wepay/
+ERR: 1146:La table 'wepay.we_admin\_product' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `we_admin\_product`
+
+[ 2017-05-24T18:44:38+08:00 ] ::1 /wepay/
+ERR: Think\Controller:page方法不存在！
+
+[ 2017-05-24T18:45:08+08:00 ] ::1 /wepay/
+ERR: Think\Controller:page方法不存在！
+
+[ 2017-05-24T18:45:14+08:00 ] ::1 /wepay/index.php
+ERR: Think\Controller:page方法不存在！
+
+[ 2017-05-24T18:56:44+08:00 ] ::1 /wepay/index.php
+ERR: Think\Model:getList方法不存在！
+
+[ 2017-05-24T18:57:26+08:00 ] ::1 /wepay/index.php
+ERR: Think\Model:getList方法不存在！
+
+[ 2017-05-24T18:57:57+08:00 ] ::1 /wepay/index.php
+ERR: 1146:La table 'wepay.we_admin/_product' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `we_admin/_product`
+
+[ 2017-05-24T19:28:04+08:00 ] ::1 /wepay/index.php/Index/lib/zepto.min.js
+ERR: 非法操作:lib
+
+[ 2017-05-24T19:28:04+08:00 ] ::1 /wepay/index.php/Index/js/frozen.js
+ERR: 非法操作:js
+
+[ 2017-05-24T19:28:04+08:00 ] ::1 /wepay/index.php/Index/js/echarts.min.js
+ERR: 非法操作:js
+
+[ 2017-05-24T19:28:04+08:00 ] ::1 /wepay/index.php/Index/css/frozen.css
+ERR: 非法操作:css
+
+[ 2017-05-24T19:28:49+08:00 ] ::1 /wepay/index.php/Index/css/frozen.css
+ERR: 非法操作:css
+
